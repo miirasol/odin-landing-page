@@ -130,6 +130,30 @@ body {
     text-align: center;
 }
 
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 450px;
+    padding: 0 250px;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+.speaker {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 ul {
     display: flex;
     gap: 24px;
